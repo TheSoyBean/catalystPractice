@@ -29,13 +29,18 @@ int main() {
     std::cout << cheeses.at(newEnd) << "\n\n";
     
     // remove second item using erase
+    cheeses.erase(cheeses.begin() + 1);
     
     // print the 2nd item using at
-    
+    std::cout << "2nd item after erase:\n" << cheeses.at(1) << "\n\n";
+
+
     // change the second item using at
-    
+    cheeses.at(1) = "moldy";
+
     // print the second item using at
-    
+    std::cout << "2nd item after change (No not my brie!!!):\n" << cheeses.at(1) << "\n\n";
+
     // insert an item at index 1 using insert
     
     // print index 1 using at
