@@ -42,9 +42,12 @@ int main() {
     std::cout << "2nd item after change (No not my brie!!!):\n" << cheeses.at(1) << "\n\n";
 
     // insert an item at index 1 using insert
-    
+    cheeses.insert(cheeses.begin() + 1, "Limoncello");
+
     // print index 1 using at
-    
+    std::cout << "2nd item after inserting at index 1:\n" << cheeses.at(1) << "\n\n";
+
+
     // for loop to print each item on a new line
     
     return 0;
