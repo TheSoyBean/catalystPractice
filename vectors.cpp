@@ -49,6 +49,13 @@ int main() {
 
 
     // for loop to print each item on a new line
-    
+
+    std::cout << "Final cheese list:\n";
+    for (int i = 0; i < cheeses.size(); ++i) {
+        std::cout << cheeses[i] << " ";
+    }
+    std::cout << "\n";
+
+
     return 0;
 }
