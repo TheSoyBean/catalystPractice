@@ -4,7 +4,7 @@
 
 int main() {
     // Initialize random seed
-    std::srand(static_cast<unsigned int>(std::time(nullptr)));
+    std::srand(std::time(0));
 
     std::cout << "Welcome to Math Practice Laboratory!\n\nHow many questions would you like to answer?\n";
     int questions;
