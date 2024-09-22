@@ -1,12 +1,8 @@
 #include <iostream>
 
 
-// Checks if the year is a leap year or not.
-bool isLeapYear(int year) {
-    return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
-}
 
-
+bool isLeapYear();
 
 int main() {
 
@@ -21,6 +17,12 @@ int main() {
     } else {
         std::cout << "Not a Leap Year.\n";
     }
+
+
+// Checks if the year is a leap year or not.
+bool isLeapYear(int year) {
+    return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+}
 
     return 0;
 }
