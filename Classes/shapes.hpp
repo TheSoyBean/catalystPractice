@@ -4,4 +4,6 @@ class Shape{
 public:
     void setDimensions(double w, double h);
     double getArea();
+    double getWidth();
+    double getHeight();
 };
