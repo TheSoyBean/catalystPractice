@@ -4,7 +4,7 @@
 int main() {
     Shape rectangle;
     rectangle.setDimensions(14.2, 13.5);
-    std::cout << "Shape 1 Details: \nWidth: " << rectangle.getWidth() 
+    std::cout << "Shape 1 Details: Width: " << rectangle.getWidth() 
               << " Height: " << rectangle.getHeight() 
               << " Area: " << rectangle.getArea() << " square units\n";
 
