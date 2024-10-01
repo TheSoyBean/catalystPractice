@@ -41,7 +41,7 @@ int main(){
         }
     }
     
-    std::cout << "The product of all the values in the matrix is: " << product;
+    std::cout << "The product of all the values in the matrix is: " << product << std::endl;
 
     return 0;
 }
