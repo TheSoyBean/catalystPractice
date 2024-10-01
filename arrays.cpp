@@ -18,7 +18,7 @@ int main(){
     }
 
     //Adds all values in matrix
-    int sum;
+    int sum = 0;
 
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
@@ -26,6 +26,22 @@ int main(){
         }
     }
 
-    std::cout << "The sum of all the elements is: " << sum << std::endl;
+    std::cout << "The sum of all the values in matrix is: " << sum << std::endl;
+
+    int average = sum/9;
+
+    std::cout << "The average of the matrix's values: " << average << std::endl;
+    
+
+    //Product of all values
+    int product = 1;
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            product *= matrix[i][j];
+        }
+    }
+    
+    std::cout << "The product of all the values in the matrix is: " << product;
+
     return 0;
 }
