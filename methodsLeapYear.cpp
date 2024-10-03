@@ -1,8 +1,6 @@
 #include <iostream>
 
-
-
-bool isLeapYear();
+bool isLeapYear(int year);
 
 int main() {
 
@@ -19,12 +17,13 @@ int main() {
     }
 
 
+    return 0;
+}
+
+
 // Checks if the year is a leap year or not.
 bool isLeapYear(int year) {
     return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
-}
-
-    return 0;
 }
 
 
